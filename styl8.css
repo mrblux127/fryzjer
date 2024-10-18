@@ -1,34 +1,27 @@
-main{
+main {
     display: flex;
 }
-body{
+
+body {
     text-align: center;
 }
+
 header{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #795548;
     color: white;
     padding: 7px;
-}
-.left{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #E1BEE7;
-    width: 25%;
-    height: 500px;
-}
-.right{
-    background-color: #E1BEE7;
-    width: 25%;
-    height: 500px;
-}
-.center{
-    width: 60%;
-    height: 500px;
+    font-size: 170%;
 }
 
-footer{
-    background-color: #9958a5;
-    height: 60px;
-    color: white;
-    padding-right: 1700px;
+.container {
+    display: flex;
+}
+
+.col-8 {
+    width: 72%;
+}
+
+.obraz {
+    height: 400px;
 }
